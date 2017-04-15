@@ -2,37 +2,51 @@
 <html lang="en">
     <head>
         <title>Contact Us</title>
+        <link href="restStyle.css" rel="stylesheet" type="text/css"/>
+    <style>
+
+label {
+    display: inline-block;
+     width: 300px;
+     text-align: right;
+     line-height: 2em;}
+p   {
+    text-indent: 350px;}
+    </style>
     </head>
     <body>
         <h1 style="text-align:center">Banh Mi Bistro</h1>
-        <hr/><br/>
+        <hr/>
+        <header>
 &nbsp; &nbsp;<a href="RestHome.html">Home</a> &nbsp; <a href="RestMenu.html">Menu</a> &nbsp; <a href="RestContactUs.html">Contact Us</a>
-        <br/><br/><hr/><br/>
-        <form action="fakePage.html" method="POST">
+        <br/><hr/>
+        </header>
+    <form action="fakePage.html" method="POST">
 <!--Apparently, there's no way to indent text in HTML.  I'm using spaces to create indentation and to line up the forms.-->
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: <input type="text" name="myTextInput" align="middle"/></br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: <input type="text" name="myTextInput" /></br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone: <input type="text" name="myTextInput" /></br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reason for Inquiry: <select><br/>
+<label>Name:</label> <input type="text" name="myTextInput" /></br>
+<label>Email:</label> <input type="text" name="myTextInput" /><br/>
+<label>Phone:</label> <input type="text" name="myTextInput" /></br>
+<label>Reason for Inquiry:</label> <select><br/>
             <option value="Catering">Catering</option>
             <option value="Private Party">Private Party</option>
             <option value="Feedback">Feedback</option>
             <option value="Other">Other</option>
-        </select><br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additional Information: <textarea style="height: 100px;"></textarea><br/><br/>
-Have you visited our restuarant? <input type="radio" name="answer" value="Yes" checked/>Yes <input type="radio" name="answer" value="No" />No<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best day to contact you:<input type="checkbox" name="answer" value="M" checcked />M
+        </select><br/>
+<label>Additional Information:</label> <textarea style="height: 100px;"></textarea><br/>
+<label>Have you visited our restuarant?</label> <input type="radio" name="answer" value="Yes" checked/>Yes <input type="radio" name="answer" value="No" />No<br/>
+<label>Best day to contact you:</label>&nbsp;<input type="checkbox" name="answer" value="M" checcked />M
 <input type="checkbox" name="answer" value="Tu" checcked />Tu
 <input type="checkbox" name="answer" value="W" checcked />W
 <input type="checkbox" name="answer" value="Th" checcked />Th
 <input type="checkbox" name="answer" value="F" checcked />F
-<br/><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Submit" />
+<p><input type="Submit" /></p>
 
-        </form>
+    </form>
 <hr/>
-<center><h3>3001 White Bear Avenue, Maplewood, MN 55113</h3></center>
-<center><h3>612-545-6792 </h3></center>
+    <footer>
+<p>3001 White Bear Avenue, Maplewood, MN 55113</p>
+<p>612-545-6792 </p>
+    </footer>
     </body>
 </html>
