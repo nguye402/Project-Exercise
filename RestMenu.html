@@ -5,16 +5,27 @@
         <link href="restStyle.css" rel="stylesheet" type="text/css"/>
         <style>
             table {
-                width: 100%;
+                width: 50%;
+                margin: 0 auto;
+                border: 2px solid orange;
+                border-collapse: collapse;
             }
             th {
                 color: red;
             }
-            td {
+            td.food {
                 text-align: center;
                 color: brown;
+                padding-left: 10px;
+                padding-right: 10px;
             }
-            body{background-color:papayawhip;}
+            td.drink {
+                text-align:center;
+                color: black;
+            }
+            body {
+                background-color:papayawhip;
+            }
         </style>
     </head>
     <body>
@@ -24,7 +35,8 @@
 &nbsp; &nbsp;<a href="RestHome.html">Home</a> &nbsp; <a href="RestMenu.html">Menu</a> &nbsp; <a href="RestContactUs.html">Contact Us</a>
         <hr/>
         </header>
-<table width="50%">
+<table class="food">
+    <caption style="font-size: larger; font-weight: bold; color: crimson; text-align: center;">Entree</caption>
         <tr>
             <th>#1</th>
             <th>#2</th>
@@ -36,14 +48,9 @@
             <th>Grilled Beef</th>
         </tr>
         <tr>
-            <td>Cooked groudn pork, pate, mayo, picked carrots & diakon,</td>
-            <td>Marinated pork shoulders, pate, mayo, picked carrots & diakon,</td>
-            <td>Marinated beef slices, pate, mayo, picked carrots & diakon,</td>
-        </tr>
-        <tr>
-            <td>jalopenos, cucumbers, and cilantro</td>
-            <td>jalopenos, cucumbers, and cilantro</td>
-            <td>jalopenos, cucumbers, and cliantro</td>
+            <td class="food">Cooked ground pork, pate, mayo, picked carrots & diakon,</td>
+            <td class="food">Marinated pork shoulders, pate, mayo, picked carrots & diakon,</td>
+            <td class="food">Marinated beef slices, pate, mayo, picked carrots & diakon,</td>
         </tr>
         <tr>
             <th>$4.95</th>
@@ -58,19 +65,14 @@
             <th>#6</th>
         </tr>    
         <tr>
-            <th>Spring Rolls</th>
-            <th>Egg Rolls</th>
+            <th class="food">Spring Rolls</th>
+            <th >Egg Rolls</th>
             <th>Vermicelli Salads</th>
         </tr>
         <tr>
-            <td>Vermicelli noodles, shrmip, mints</td>
-            <td>Ground pork, carrots, onions</td>
-            <td>Choice of pork or beef on</td>
-        </tr>
-        <tr>
-            <td>fresh-cut lettuce and peanut sauce</td>
-            <td>mushrooms, bean threads</td>
-            <td>bed of vermicelli and lettuce</td>
+            <td class="food">Vermicelli noodles, shrmip, mints, fresh cut lettues and peanut suace</td>
+            <td class="food">Ground pork, carrots, onions, and mushrooms</td>
+            <td class="food">Choice of pork or beef on a bed of lettuce and rice noodles</td>
         </tr>
         <tr>
             <th>$4.95 for 2</th>
@@ -78,7 +80,25 @@
             <th>$5.95</th>
         </tr>
 </table>
-<br/><br/>
+<table>
+    <caption style="font-size: larger;">Beverages</caption>
+    <tr>
+        <td class="drink">Root Beer</td>
+        <td>$2.50</td>
+    </tr>
+    <tr>
+        <td class="drink">Bottled Water</td>
+        <td>$1.25</td>
+    </tr>
+    <tr>
+        <td class="drink">Lemonade</td>
+        <td>$3.00</td>
+    </tr>
+        <tr>
+        <td class="drink">Iced Tea</td>
+        <td>$2.00</td>
+    </tr>
+</table>
     <footer>
     <hr/>
 <p>3001 White Bear Avenue, Maplewood, MN 55113</p>

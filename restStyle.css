@@ -17,3 +17,20 @@ div {
         padding: 25px;
         margin: 0 auto;
     }
+
+a:link {
+    color:orange;
+
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+}
