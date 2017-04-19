@@ -12,10 +12,11 @@ header {
     background-color: white;
 }
 div {
-        width: 330px;
+        width: 345px;
         background-color: papayawhip;
         padding: 25px;
         margin: 0 auto;
+        border: 5px solid black
     }
 
 a:link {
