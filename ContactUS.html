@@ -2,27 +2,33 @@
 <html lang="en">
     <head>
         <title>Contact Us</title>  
+        <style>
+            label {
+                display: inline-block;
+                width: 300px;
+                text-align: right;
+                line-height: 2em;}
+        </style>
     </head>
     <body>
-        <div align:"left">
+        <div>
         <form action="fakePage.html method="POST">
-First Name: <input type="text" name="myTextInput" align="middle"/></br></br>
-Last Name:  <input type="text" name="myTextInput" /></br></br>
-Email:      <input type="text" name="myTextInput" /></br></br>
-Type of License: <input type="radio" name="answer" value="Business" checked/>Business <input type="radio" name="answer" value="Personal" />Personal<br/>
-<br/>Reason: <select><br/>
+<label>First Name:</label> <input type="text" name="myTextInput" align="middle"/></br></br>
+<label>Last Name:</label> <input type="text" name="myTextInput" /></br></br>
+<label>Email: </label>     <input type="text" name="myTextInput" /></br></br>
+<label>Type of License: </label><input type="radio" name="answer" value="Business" checked/>Business <input type="radio" name="answer" value="Personal" />Personal<br/><br/>
+<label>Reason: </label> <select>
             <option value="Select a Reason">Select a Reason</option>
             <option value="Software Support">Software Support</option>
             <option value="Hardware Support">Hardware Support</option>
             <option value="Information Request">Information Request</option>
         </select><br/>
         <br/>
-Additional Information: <textarea name="briefDescription""></textarea><br/><br/>
-<input type="checkbox" name="answer" value="I have read the terms of service." checcked />I have read the terms of service.<br/><br/>
-<input type="Submit" />
+<label>Additional Information:</label> <textarea name="briefDescription""></textarea><br/><br/>
+<label><input type="checkbox" name="answer" value="I have read the terms of service." checcked /></label> have read the terms of service.<br/><br/>
+<label><input type="Submit" /></label>
 
         </form>
         </div>
-    </body>
+    </bod>
 </html>
-<!--I cannot find a way to line up the boxes and text area-->

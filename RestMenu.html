@@ -3,15 +3,16 @@
     <head>
         <title>Menu</title>
         <link href="restStyle.css" rel="stylesheet" type="text/css"/>
-        <link href="bootstrap.css"
-        rel="stylesheet"
-        type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style>
             table {
                 width: 50%;
                 margin: 0 auto;
                 border: 5px solid orange;
                 border-collapse: collapse;
+                background-color:antiquewhite;
             }
             th {text-align: center;
                 color: red;
@@ -32,10 +33,14 @@
         </style>
     </head>
     <body>
+
         <h1 style="text-align:center; font-family:cursive;">Banh Mi Bistro</h1>
         <header>
-        <hr/>
-&nbsp; &nbsp;<a href="RestHome.html">Home</a> &nbsp; <a href="RestMenu.html">Menu</a> &nbsp; <a href="RestContactUs.html">Contact Us</a>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="RestHome.html" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                <li><a href="RestMenu.html">Menu</a></li>
+                <li><a href="RestContactUs.html">Contact Us</a></li>
+            </ul>
         <hr/>
         </header>
 <table class="food">
